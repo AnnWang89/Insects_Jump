@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="825.0" prefWidth="1525.0" style="-fx-background-color: #95e9ec;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Cercopidae_controller">
+   <children>
+      <ImageView fitHeight="978.0" fitWidth="1525.0" layoutY="-418.0">
+         <image>
+            <Image url="@../picture/grass.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="925.0" fitWidth="1283.0" layoutX="129.0" layoutY="-154.0">
+         <image>
+            <Image url="@../picture/board.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="78.0" layoutX="199.0" layoutY="338.0">
+         <image>
+            <Image url="@../picture/insect1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="263.0" layoutY="461.0">
+         <image>
+            <Image url="@../picture/insect2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="106.0" layoutX="1335.0" layoutY="338.0">
+         <image>
+            <Image url="@../picture/insect6.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="87.0" layoutX="508.0" layoutY="477.0">
+         <image>
+            <Image url="@../picture/insect7.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="1240.0" layoutY="477.0">
+         <image>
+            <Image url="@../picture/insect8.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="101.0" layoutX="1391.0" layoutY="430.0">
+         <image>
+            <Image url="@../picture/insect3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="115.0" layoutX="937.0" layoutY="469.0">
+         <image>
+            <Image url="@../picture/insect4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="52.0" layoutY="442.0">
+         <image>
+            <Image url="@../picture/insect5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="270.0" fitWidth="416.0" layoutX="-1.0" layoutY="556.0">
+         <image>
+            <Image url="@../picture/road.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="270.0" fitWidth="1111.0" layoutX="414.0" layoutY="556.0">
+         <image>
+            <Image url="@../picture/road3.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#04294c" height="556.0" opacity="0.1" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1525.0" />
+      <Polygon fill="#feffe8dd" layoutX="506.0" layoutY="198.0" points="-450.79998779296875, 628.0, 450.79998779296875, 628.0, 0.0, -60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#feffe8dd" layoutX="1003.0" layoutY="197.0" points="-450.20001220703125, 628.0, 450.60009765625, 628.0, 0.0, -60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Text fill="#0a4954" layoutX="336.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="沫蟬">
+         <font>
+            <Font name="STZhongsong" size="50.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="98.0" fitWidth="177.0" layoutX="557.0" layoutY="165.0" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/Cercopidae.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="748.0" layoutY="239.0">
+         <image>
+            <Image url="@../picture/Cercopidaepic.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#107692" layoutX="346.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="跳高王者!!">
+         <font>
+            <Font name="STZhongsong" size="27.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="146.0" fitWidth="200.0" layoutX="970.0" layoutY="168.0">
+         <image>
+            <Image url="@../picture/Cercopidae.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="122.0" fitWidth="200.0" layoutX="408.0" layoutY="277.0">
+         <image>
+            <Image url="@../picture/Cercopidae.jpeg" />
+         </image>
+      </ImageView>
+      <Circle fill="#1f93ff00" layoutX="453.0" layoutY="334.0" radius="52.0" stroke="#e54949" strokeType="INSIDE" strokeWidth="3.0" />
+      <Text fill="#8f2828" layoutX="520.0" layoutY="393.0" strokeType="OUTSIDE" strokeWidth="0.0" text="腿部肌肉">
+         <font>
+            <Font name="STZhongsong" size="22.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="_Cercopidaechar" fitHeight="98.0" fitWidth="177.0" layoutX="11.0" layoutY="627.0" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/Cercopidae_char.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
