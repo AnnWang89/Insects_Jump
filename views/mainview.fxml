@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="825.0" prefWidth="1525.0" style="-fx-background-color: #95e9ec;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.main_controller">
+   <children>
+      <ImageView fitHeight="978.0" fitWidth="1525.0" layoutY="-418.0">
+         <image>
+            <Image url="@../picture/grass.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="925.0" fitWidth="1283.0" layoutX="139.0" layoutY="-136.0">
+         <image>
+            <Image url="@../picture/board.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="78.0" layoutX="199.0" layoutY="338.0" opacity="0.68">
+         <image>
+            <Image url="@../picture/insect1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="263.0" layoutY="461.0" opacity="0.59">
+         <image>
+            <Image url="@../picture/insect2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="270.0" fitWidth="416.0" layoutY="560.0">
+         <image>
+            <Image url="@../picture/road.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="270.0" fitWidth="1111.0" layoutX="415.0" layoutY="560.0">
+         <image>
+            <Image url="@../picture/road3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="106.0" layoutX="1335.0" layoutY="338.0" opacity="0.64">
+         <image>
+            <Image url="@../picture/insect6.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="87.0" layoutX="508.0" layoutY="477.0" opacity="0.72" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/insect7.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="1240.0" layoutY="477.0" opacity="0.66">
+         <image>
+            <Image url="@../picture/insect8.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="101.0" layoutX="1391.0" layoutY="430.0" opacity="0.65" rotate="23.2">
+         <image>
+            <Image url="@../picture/insect3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="115.0" layoutX="938.0" layoutY="469.0" opacity="0.6">
+         <image>
+            <Image url="@../picture/insect4.png" />
+         </image>
+      </ImageView>
+      <Polygon fx:id="_light1" fill="#feffe8dd" layoutX="349.0" layoutY="214.0" opacity="0.6" points="-450.79998779296875, 628.0, 450.79998779296875, 628.0, 0.0, -60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fx:id="_light3" fill="#feffe8dd" layoutX="682.0" layoutY="217.0" opacity="0.6" points="-450.79998779296875, 628.0, 450.79998779296875, 628.0, 0.0, -60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fx:id="_light4" fill="#feffe8dd" layoutX="847.0" layoutY="219.0" opacity="0.6" points="-450.79998779296875, 628.0, 450.79998779296875, 628.0, 0.0, -60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fx:id="_light5" fill="#feffe8dd" layoutX="1014.0" layoutY="215.0" opacity="0.6" points="-450.79998779296875, 628.0, 450.79998779296875, 628.0, 0.0, -60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fx:id="_light2" fill="#feffe8de" layoutX="516.0" layoutY="214.0" opacity="0.6" points="-450.79998779296875, 628.0, 450.79998779296875, 628.0, 0.0, -60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fx:id="_light6" fill="#feffe8dd" layoutX="1181.0" layoutY="218.0" opacity="0.6" points="-450.79998779296875, 628.0, 450.79998779296875, 628.0, 0.0, -60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Text fill="#0b4e52" layoutX="405.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2021昆蟲界運動會田徑賽" wrappingWidth="748.0000610351562">
+         <font>
+            <Font name="STZhongsong" size="60.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="52.0" layoutY="442.0" opacity="0.6" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/insect5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_char3" fitHeight="118.0" fitWidth="154.0" layoutX="675.0" layoutY="586.0" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/Clickbeetlechar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_char6" fitHeight="103.0" fitWidth="115.0" layoutX="349.0" layoutY="737.0" rotate="20.0" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/Collembolachar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_char1" fitHeight="111.0" fitWidth="115.0" layoutX="220.0" layoutY="505.0" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/flea_char.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_char4" fitHeight="150.0" fitWidth="200.0" layoutX="830.0" layoutY="629.0" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/Odontomachuschar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_char5" fitHeight="111.0" fitWidth="146.0" layoutX="567.0" layoutY="665.0" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/WaxCicadachar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_char2" fitHeight="78.0" fitWidth="138.0" layoutX="439.0" layoutY="556.0" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/Cercopidae_char.png" />
+         </image>
+      </ImageView>
+      <Text fill="#188187" layoutX="364.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="✨昆蟲界跳高跳遠決賽✨" textAlignment="CENTER" wrappingWidth="748.0000610351562">
+         <font>
+            <Font name="STZhongsong" size="60.0" />
+         </font>
+      </Text>
+      <Text fill="#04257a1a" layoutX="336.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" text="🐜🐞🦂🐝🦋🐜🐞🦂🐝🦋🐜🐞🦂🐝🦋🐜🐞🦂🐝🦋🐜🐞🦂🐝🦋🐜🐞🦂🐝🦋" textAlignment="CENTER" wrappingWidth="852.8001098632812">
+         <font>
+            <Font name="STZhongsong" size="28.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

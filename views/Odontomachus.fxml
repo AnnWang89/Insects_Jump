@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="825.0" prefWidth="1525.0" style="-fx-background-color: #95e9ec;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Odontomachus_controller">
+   <children>
+      <ImageView fitHeight="978.0" fitWidth="1525.0" layoutY="-419.0">
+         <image>
+            <Image url="@../picture/grass.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="925.0" fitWidth="1283.0" layoutX="129.0" layoutY="-155.0">
+         <image>
+            <Image url="@../picture/board.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="78.0" layoutX="199.0" layoutY="337.0">
+         <image>
+            <Image url="@../picture/insect1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="263.0" layoutY="460.0">
+         <image>
+            <Image url="@../picture/insect2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="106.0" layoutX="1335.0" layoutY="337.0">
+         <image>
+            <Image url="@../picture/insect6.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="87.0" layoutX="508.0" layoutY="476.0">
+         <image>
+            <Image url="@../picture/insect7.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="1240.0" layoutY="476.0">
+         <image>
+            <Image url="@../picture/insect8.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="101.0" layoutX="1391.0" layoutY="429.0">
+         <image>
+            <Image url="@../picture/insect3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="115.0" layoutX="937.0" layoutY="468.0">
+         <image>
+            <Image url="@../picture/insect4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="52.0" layoutY="441.0">
+         <image>
+            <Image url="@../picture/insect5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="270.0" fitWidth="416.0" layoutY="556.0">
+         <image>
+            <Image url="@../picture/road.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="270.0" fitWidth="1111.0" layoutX="415.0" layoutY="556.0">
+         <image>
+            <Image url="@../picture/road3.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#04294c" height="556.0" opacity="0.2" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1525.0" />
+      <Polygon fill="#feffe8de" layoutX="506.0" layoutY="198.0" points="-450.79998779296875, 628.0, 450.79998779296875, 628.0, 0.0, -60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#feffe8de" layoutX="1003.0" layoutY="197.0" points="-450.20001220703125, 628.0, 450.60009765625, 628.0, 0.0, -60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Text fill="#0a4954" layoutX="336.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="大齒猛蟻">
+         <font>
+            <Font name="STZhongsong" size="50.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="156.0" fitWidth="219.0" layoutX="821.0" layoutY="236.0">
+         <image>
+            <Image url="@../picture/Odontomachus.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="142.0" fitWidth="137.0" layoutX="670.0" layoutY="160.0">
+         <image>
+            <Image url="@../picture/Odontomachuspic2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="119.0" fitWidth="180.0" layoutX="468.0" layoutY="270.0">
+         <image>
+            <Image url="@../picture/Odontomachuspic3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="173.0" fitWidth="106.0" layoutX="1067.0" layoutY="165.0">
+         <image>
+            <Image url="@../picture/Odontomachuspic.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#107692" layoutX="345.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="逃生特技!">
+         <font>
+            <Font name="STZhongsong" size="27.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="_odontomachuschar" fitHeight="133.0" fitWidth="180.0" layoutY="609.0" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/Odontomachuschar.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

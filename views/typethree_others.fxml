@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="825.0" prefWidth="1525.0" style="-fx-background-color: #00AEAE;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.typethree_controller">
+   <children>
+      <Button blendMode="HARD_LIGHT" cache="true" cacheHint="SPEED" depthTest="ENABLE" focusTraversable="false" layoutX="291.0" layoutY="143.0" mnemonicParsing="false" onAction="#_onclickCollembola" prefHeight="70.0" prefWidth="125.0" text="彈尾目" textOverrun="LEADING_ELLIPSIS">
+         <font>
+            <Font name="Microsoft YaHei" size="24.0" />
+         </font>
+      </Button>
+      <Button blendMode="HARD_LIGHT" cache="true" cacheHint="SPEED" depthTest="ENABLE" focusTraversable="false" layoutX="478.0" layoutY="143.0" mnemonicParsing="false" onAction="#_onclickWaxCicada" prefHeight="70.0" prefWidth="125.0" text="蠟蟬" textOverrun="LEADING_ELLIPSIS">
+         <font>
+            <Font name="Microsoft YaHei" size="24.0" />
+         </font>
+      </Button>
+      <Button accessibleRole="CONTEXT_MENU" blendMode="LIGHTEN" cache="true" cacheHint="QUALITY" depthTest="ENABLE" focusTraversable="false" layoutX="14.0" layoutY="763.0" mnemonicParsing="false" onAction="#_clickongoback" text="上一頁" />
+      <ImageView fitHeight="200.0" fitWidth="153.0" layoutX="1231.0" layoutY="98.0">
+         <image>
+            <Image url="@../picture/Collembola_2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_Collembola1" fitHeight="200.0" fitWidth="153.0" layoutX="1231.0" layoutY="98.0">
+         <image>
+            <Image url="@../picture/Collembola_1.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#0a4954" layoutX="132.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="其他">
+         <font>
+            <Font name="STZhongsong" size="60.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

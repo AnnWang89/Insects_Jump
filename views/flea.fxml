@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="825.0" prefWidth="1525.0" style="-fx-background-color: #95e9ec #95e9ec;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.flea_controller">
+   <children>
+      <ImageView fitHeight="978.0" fitWidth="1525.0" layoutY="-416.0">
+         <image>
+            <Image url="@../picture/grass.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="78.0" layoutX="199.0" layoutY="340.0">
+         <image>
+            <Image url="@../picture/insect1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="263.0" layoutY="463.0">
+         <image>
+            <Image url="@../picture/insect2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="106.0" layoutX="1335.0" layoutY="340.0">
+         <image>
+            <Image url="@../picture/insect6.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="87.0" layoutX="508.0" layoutY="479.0">
+         <image>
+            <Image url="@../picture/insect7.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="1240.0" layoutY="479.0">
+         <image>
+            <Image url="@../picture/insect8.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="101.0" layoutX="1391.0" layoutY="432.0">
+         <image>
+            <Image url="@../picture/insect3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="115.0" layoutX="937.0" layoutY="471.0">
+         <image>
+            <Image url="@../picture/insect4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="52.0" layoutY="444.0">
+         <image>
+            <Image url="@../picture/insect5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="270.0" fitWidth="416.0" layoutY="558.0">
+         <image>
+            <Image url="@../picture/road.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="270.0" fitWidth="1111.0" layoutX="415.0" layoutY="558.0">
+         <image>
+            <Image url="@../picture/road3.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#04294c" height="556.0" opacity="0.05" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1525.0" />
+      <ImageView fitHeight="925.0" fitWidth="1283.0" layoutX="121.0" layoutY="-157.0">
+         <image>
+            <Image url="@../picture/board.png" />
+         </image>
+      </ImageView>
+      <Polygon fill="#feffe8dd" layoutX="497.0" layoutY="200.0" points="-450.79998779296875, 628.0, 450.79998779296875, 628.0, 0.0, -60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#feffe8dd" layoutX="995.0" layoutY="201.0" points="-450.20001220703125, 628.0, 450.60009765625, 628.0, 0.0, -60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <ImageView fx:id="_fleachar" fitHeight="102.0" fitWidth="102.0" layoutY="642.0" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/flea_char.png" />
+         </image>
+      </ImageView>
+      <Text fill="#0a4954" layoutX="336.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="跳蚤">
+         <font>
+            <Font name="STZhongsong" size="50.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="_fleapic" fitHeight="87.0" fitWidth="115.0" layoutX="521.0" layoutY="286.0">
+         <image>
+            <Image url="@../picture/fleapic.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="192.0" fitWidth="149.0" layoutX="1013.0" layoutY="187.0">
+         <image>
+            <Image url="@../picture/Flea.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#107692" layoutX="336.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="天生的跳高選手!!">
+         <font>
+            <Font name="STZhongsong" size="27.0" />
+         </font>
+      </Text>
+      <Text fill="#b8e6ed" layoutX="1077.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="電子顯微鏡">
+         <font>
+            <Font name="STZhongsong" size="15.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="119.0" fitWidth="176.0" layoutX="336.0" layoutY="270.0" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/Flea2.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="266.0" layoutX="707.0" layoutY="222.0">
+         <image>
+            <Image url="@../picture/Flea3.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="87.0" layoutX="623.0" layoutY="170.0" rotate="-20.0" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/fleapic2.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

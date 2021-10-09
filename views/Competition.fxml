@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="825.0" prefWidth="1525.0" style="-fx-background-color: #95e9ec;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Competition_controller">
+   <children>
+      <ImageView fitHeight="978.0" fitWidth="1525.0" layoutY="-418.0">
+         <image>
+            <Image url="@../picture/grass.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="78.0" layoutX="199.0" layoutY="338.0" opacity="0.68">
+         <image>
+            <Image url="@../picture/insect1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="263.0" layoutY="461.0" opacity="0.59">
+         <image>
+            <Image url="@../picture/insect2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="106.0" layoutX="1335.0" layoutY="338.0" opacity="0.64">
+         <image>
+            <Image url="@../picture/insect6.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="87.0" layoutX="508.0" layoutY="477.0" opacity="0.72" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/insect7.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="1240.0" layoutY="477.0" opacity="0.66">
+         <image>
+            <Image url="@../picture/insect8.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="101.0" layoutX="1391.0" layoutY="430.0" opacity="0.65" rotate="23.2">
+         <image>
+            <Image url="@../picture/insect3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="115.0" layoutX="938.0" layoutY="469.0" opacity="0.6">
+         <image>
+            <Image url="@../picture/insect4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="52.0" layoutY="442.0" opacity="0.6" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/insect5.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#04294c" height="556.0" opacity="0.45" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1525.0" />
+      <ImageView fitHeight="925.0" fitWidth="1283.0" layoutX="139.0" layoutY="-136.0">
+         <image>
+            <Image url="@../picture/board.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="_jumpcom" fill="#ed4545" layoutX="567.0" layoutY="311.0" strokeType="OUTSIDE" strokeWidth="0.0" text="比賽開始🔥" visible="false" wrappingWidth="526.4000244140625">
+         <font>
+            <Font name="STZhongsong" size="84.0" />
+         </font>
+      </Text>
+      <Text fx:id="_jumpfinal" fill="#d54b36" layoutX="421.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="🎉🎉🎉Congratulations🎉🎉🎉&#10;跳高冠軍 : 沫蟬&#10;跳遠冠軍 : 跳蚤" visible="false" wrappingWidth="720.0">
+         <font>
+            <Font name="STZhongsong" size="47.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="270.0" fitWidth="1111.0" layoutX="415.0" layoutY="556.0">
+         <image>
+            <Image url="@../picture/road3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="270.0" fitWidth="416.0" layoutY="556.0">
+         <image>
+            <Image url="@../picture/road.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_clickbeetlechar" fitHeight="118.0" fitWidth="154.0" layoutX="34.0" layoutY="595.0" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/Clickbeetlechar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_fleachar" fitHeight="118.0" fitWidth="124.0" layoutX="41.0" layoutY="501.0" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/flea_char.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_chan1" fitHeight="99.0" fitWidth="95.0" layoutX="41.0" layoutY="501.0" visible="false">
+         <image>
+            <Image url="@../picture/chanpion.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="_flag" fill="#ed4545" layoutX="551.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="🚩🚩🚩" wrappingWidth="526.4000244140625">
+         <font>
+            <Font name="STZhongsong" size="150.0" />
+         </font>
+      </Text>
+      <Text fx:id="_far" fill="#543306" layoutX="77.0" layoutY="557.0" strokeType="OUTSIDE" strokeWidth="0.0" text="跳遠" visible="false">
+         <font>
+            <Font name="STZhongsong" size="12.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="_odontomachuschar" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="629.0" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/Odontomachuschar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_waxcicadachar" fitHeight="111.0" fitWidth="146.0" layoutX="38.0" layoutY="680.0" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/WaxCicadachar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_Cercopidaechar" fitHeight="87.0" fitWidth="154.0" layoutX="34.0" layoutY="542.0" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/Cercopidae_char.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_collembolachar3" fitHeight="141.0" fitWidth="200.0" layoutX="75.0" layoutY="667.0" visible="false">
+         <image>
+            <Image url="@../picture/Collembolachar3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_collembolachar2" fitHeight="114.0" fitWidth="191.0" layoutX="20.0" layoutY="695.0" visible="false">
+         <image>
+            <Image url="@../picture/Collembolachar2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_collembolachar" fitHeight="129.0" fitWidth="183.0" layoutX="21.0" layoutY="715.0" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/Collembolachar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_chan2" fitHeight="99.0" fitWidth="95.0" layoutX="51.0" layoutY="550.0" visible="false">
+         <image>
+            <Image url="@../picture/chanpion.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="_high" fill="#543306" layoutX="87.0" layoutY="606.0" strokeType="OUTSIDE" strokeWidth="0.0" text="跳高" visible="false">
+         <font>
+            <Font name="STZhongsong" size="12.0" />
+         </font>
+      </Text>
+      <Rectangle fx:id="_dark" arcHeight="5.0" arcWidth="5.0" height="837.0" layoutY="-1.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1534.0" />
+      <Text fx:id="_work" fill="#cde0f4" layoutX="360.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="工作分配:&#10;王君安 : 影片製作、跳蚤、叩頭蟲、配音&#10;張紘毓 : 結尾、彈尾目、沫蟬、配音&#10;朱韋霖 : 開頭、大齒猛蟻、蠟蟬、配音" visible="false" wrappingWidth="867.2000732421875">
+         <font>
+            <Font name="STZhongsong" size="41.0" />
+         </font>
+      </Text>
+      <Text fx:id="_teacher" fill="#cde0f4" layoutX="361.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="昆蟲世界&#10;國立中央大學1092學期&#10;授課老師:生命科學系葉淑丹&#10;課號: LS1018&#10;" textAlignment="CENTER" visible="false" wrappingWidth="867.2000732421875">
+         <font>
+            <Font name="STZhongsong" size="41.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

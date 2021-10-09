@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="825.0" prefWidth="1525.0" style="-fx-background-color: #95e9ec;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Collembola_controller">
+   <children>
+      <ImageView fitHeight="978.0" fitWidth="1525.0" layoutY="-419.0">
+         <image>
+            <Image url="@../picture/grass.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="925.0" fitWidth="1283.0" layoutX="129.0" layoutY="-155.0">
+         <image>
+            <Image url="@../picture/board.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="78.0" layoutX="199.0" layoutY="337.0">
+         <image>
+            <Image url="@../picture/insect1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="263.0" layoutY="460.0">
+         <image>
+            <Image url="@../picture/insect2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="106.0" layoutX="1335.0" layoutY="337.0">
+         <image>
+            <Image url="@../picture/insect6.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="87.0" layoutX="508.0" layoutY="476.0">
+         <image>
+            <Image url="@../picture/insect7.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="1240.0" layoutY="476.0">
+         <image>
+            <Image url="@../picture/insect8.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="101.0" layoutX="1391.0" layoutY="429.0">
+         <image>
+            <Image url="@../picture/insect3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="115.0" layoutX="937.0" layoutY="468.0">
+         <image>
+            <Image url="@../picture/insect4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="300.0" layoutY="441.0">
+         <image>
+            <Image url="@../picture/insect5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="270.0" fitWidth="416.0" layoutY="559.0">
+         <image>
+            <Image url="@../picture/road.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="270.0" fitWidth="1111.0" layoutX="415.0" layoutY="559.0">
+         <image>
+            <Image url="@../picture/road3.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#04294c" height="566.0" layoutY="-6.0" opacity="0.3" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1525.0" />
+      <Polygon fill="#feffe8de" layoutX="506.0" layoutY="201.0" points="-450.79998779296875, 628.0, 450.79998779296875, 628.0, 0.0, -60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#feffe8de" layoutX="1003.0" layoutY="200.0" points="-450.20001220703125, 628.0, 450.60009765625, 628.0, 0.0, -60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Text fill="#0a4954" layoutX="336.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="彈尾目">
+         <font>
+            <Font name="STZhongsong" size="50.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="_Collembola2" fitHeight="200.0" fitWidth="153.0" layoutX="804.0" layoutY="196.0">
+         <image>
+            <Image url="@../picture/Collembola_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_Collembola1" fitHeight="200.0" fitWidth="153.0" layoutX="804.0" layoutY="198.0" visible="false">
+         <image>
+            <Image url="@../picture/Collembola_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="121.0" layoutX="381.0" layoutY="331.0" rotate="-20.0" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/Collembolapic3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="115.0" layoutX="516.0" layoutY="304.0" rotate="20.0">
+         <image>
+            <Image url="@../picture/Collembolapic4.png" />
+         </image>
+      </ImageView>
+      <Text fill="#107692" layoutX="347.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="跳蟲!!">
+         <font>
+            <Font name="STZhongsong" size="27.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="146.0" fitWidth="200.0" layoutX="573.0" layoutY="137.0">
+         <image>
+            <Image url="@../picture/Collembolap.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="172.0" fitWidth="174.0" layoutX="995.0" layoutY="186.0">
+         <image>
+            <Image url="@../picture/Collembola.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_collembolachar3" fitHeight="141.0" fitWidth="200.0" layoutX="61.0" layoutY="532.0" rotate="80.0" visible="false">
+         <image>
+            <Image url="@../picture/Collembolachar3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_collembolachar2" fitHeight="114.0" fitWidth="191.0" layoutX="12.0" layoutY="586.0" rotate="50.0" visible="false">
+         <image>
+            <Image url="@../picture/Collembolachar2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="_collembolachar" fitHeight="129.0" fitWidth="183.0" layoutX="5.0" layoutY="641.0" scaleX="-1.0">
+         <image>
+            <Image url="@../picture/Collembolachar.png" />
+         </image>
+      </ImageView>
+      <Text fill="#214079" layoutX="891.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="彈器">
+         <font>
+            <Font name="STZhongsong" size="24.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
